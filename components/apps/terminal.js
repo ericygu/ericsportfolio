@@ -12,13 +12,11 @@ export class Terminal extends Component {
         this.prev_commands = [];
         this.commands_index = -1;
         this.child_directories = {
-            root: ["books", "projects", "personal-documents", "skills", "languages", "PDPU", "interests"],
-            PDPU: ["Sem-6"],
-            books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
-            skills: ["Front-end development", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
-            projects: ["vivek9patel-personal-portfolio", "synonyms-list-react", "economist.com-unlocked", "Improve-Codeforces", "flutter-banking-app", "Meditech-Healthcare", "CPU-Scheduling-APP-React-Native"],
-            interests: ["Software Engineering", "Deep Learning", "Computer Vision"],
-            languages: ["Javascript", "C++", "Java", "Dart"],
+            root: ["books", "personal-documents", "skills", "languages", "interests"],
+            books: ["Ecclesiastes", "Psalms", "Proverbs", "Atomic Habits", "Working Backwards"],
+            skills: ["Embedded development", "OE/Yocto", "ADB", "Scripting", "React.js", "Multithreading"],
+            interests: ["Software Engineering", "Philosophy", "Education"],
+            languages: ["Rust", "C++", "Java", "Python", "JavaScript", "ARM-assembly", "SQL", "R"],
         };
         this.state = {
             terminal: [],
@@ -56,7 +54,7 @@ export class Terminal extends Component {
             <React.Fragment key={id}>
                 <div className="flex w-full h-5">
                     <div className="flex">
-                        <div className=" text-ubt-green">vivek@Dell</div>
+                        <div className=" text-ubt-green">eric@Amazon</div>
                         <div className="text-white mx-px font-medium">:</div>
                         <div className=" text-ubt-blue">{this.current_directory}</div>
                         <div className="text-white mx-px font-medium mr-1">$</div>
@@ -189,7 +187,7 @@ export class Terminal extends Component {
                     break;
                 }
                 if (words.length > 1) {
-                    result = "too many arguments, arguments must me <1.";
+                    result = "too many arguments, arguments must be <1.";
                     break;
                 }
 
@@ -202,7 +200,7 @@ export class Terminal extends Component {
                     this.current_directory += "/" + rest;
                     this.curr_dir_name = rest;
                 }
-                else if (rest === ".." || rest === "../") {
+                else if (rest === ".." || rest === "../" || rest === ".") {
                     result = "Type 'cd' to go back 😅";
                     break;
                 }
@@ -215,7 +213,7 @@ export class Terminal extends Component {
                 if (target === "" || target === undefined || target === null) target = this.curr_dir_name;
 
                 if (words.length > 1) {
-                    result = "too many arguments, arguments must me <1.";
+                    result = "too many arguments, arguments must be <1.";
                     break;
                 }
                 if (target in this.child_directories) {
@@ -239,7 +237,7 @@ export class Terminal extends Component {
                 break;
             case "pwd":
                 let str = this.current_directory;
-                result = str.replace("~", "/home/vivek")
+                result = str.replace("~", "/home/ericygu")
                 break;
             case "code":
                 if (words[0] === "." || words.length === 0) {
@@ -279,9 +277,9 @@ export class Terminal extends Component {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-vivek, todoist, trash, settings, sendmsg ]";
                 }
                 break;
-            case "about-vivek":
+            case "about-eric":
                 if (words[0] === "." || words.length === 0) {
-                    this.props.openApp("about-vivek");
+                    this.props.openApp("about-eric");
                 } else {
                     result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-vivek, todoist, trash, settings, sendmsg ]";
                 }
