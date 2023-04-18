@@ -124,7 +124,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span> currently working at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amazon_(company)" target={"_blank"}>Amazon</a> </u>, ( Hit me up <a className='text-underline' href='mailto:gudmaneric@gmail.com'><u>@gudmaneric@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span> currently working at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amazon_(company)" target={"_blank"}>Amazon, </a> </u>(Hit me up <a className='text-underline' href='mailto:gudmaneric@gmail.com'><u>@gudmaneric@gmail.com</u></a>)</li>
                 <li className=" mt-3 list-building"> I enjoy solving software puzzles.</li>
                 <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time listening to audiobooks, going to the gym, playing games or watching anime.</li>
                 <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
