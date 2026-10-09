@@ -125,7 +125,7 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span> currently working at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/Amazon_(company)" target={"_blank"}>Amazon, </a> </u>(Hit me up <a className='text-underline' href='mailto:gudmaneric@gmail.com'><u>@gudmaneric@gmail.com</u></a>)</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time listening to audiobooks, volunteering,going to the gym, and spending time with church community.</li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time listening to audiobooks, volunteering, going to the gym, and spending time with church community.</li>
                 <li className=" mt-3 list-time"> I also don't update this website enough, please dm me to get more info! </li>
             </ul>
         </>
@@ -169,7 +169,7 @@ function Skills() {
                     Check out my languages!
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Python, Java, Rust and C++</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">camera/media systems, C++, Android, and embedded Linux</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -177,33 +177,33 @@ function Skills() {
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Platforms & Build</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="eric javascript" />
                         <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="eric c++" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="eric python" />
-                        <img className="m-1" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=ffffff" alt="eric java"/>
-                        <img className='m-1' src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=ffffff" alt="eric rust"/>
-                        <img className="m-1" src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=ffffff" alt="ericr"/>
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="eric git" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=ffffff" alt="eric java" />
+                        <img className="m-1" src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="eric python" />
+                        <img className="m-1" src="https://img.shields.io/badge/GStreamer-FF6600?style=flat&logo=gstreamer&logoColor=white" alt="eric gstreamer" />
+                        <img className="m-1" src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="eric bash" />
+                        <img className="m-1" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=ffffff" alt="eric git" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="eric react" />
-                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=ffffff" alt = "ericpgsql" />
-                        <img className="m-1" src="https://img.shields.io/badge/MySQL-00000F?style=flat&logo=mysql&logoColor=ffffff" alt = "ericmysql" />
-                        <img className='m-1' src="	https://img.shields.io/badge/Nintendo_Switch-E60012?style=flat&logo=nintendoswitch&logoColor=ffffff" alt = "nintendo" />
-                        <img className='m-1' src="https://img.shields.io/badge/Steam-000000?style=flat&logo=steam&logoColor=ffffff" alt="ericsteam" />
+                        <img className="m-1" src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" alt="eric android" />
+                        <img className="m-1" src="https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white" alt="eric cmake" />
+                        <img className="m-1" src="https://img.shields.io/badge/Yocto-C40D2E?style=flat&logo=yocto&logoColor=white" alt="eric yocto" />
+                        <img className="m-1" src="https://img.shields.io/badge/Make-A8B9CC?style=flat&logo=cmake&logoColor=black" alt="eric make" />
+                        <img className="m-1" src="https://img.shields.io/badge/ADB-A4C639?style=flat&logo=android&logoColor=white" alt="eric adb" />
+                        <img className="m-1" src="https://img.shields.io/badge/BitBake-2C3E50?style=flat&logoColor=white" alt="eric bitbake" />
                     </div>
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="eric linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1" src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="eric linux" /> <span>!</span>
                 </li>
             </ul>
         </>
@@ -213,92 +213,125 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "FireOS Camera Vision Watchdog",
-            date: "",
+            name: "Camera & Media Stable IDL Migration",
+            date: "2026",
             link: "",
             description: [
-                "Designed, developed watchdogs for four different Echo Show lines that released expiring Camera Vision buffers to free memory space, with feature tests",
+                "Led camera/media off unstable Yocto sysroot APIs onto stable IDL; closed 10+ dependency-migration tickets and removed ~1,100 lines of legacy buffer-sharing code",
+                "Replanned the real migration scope (~44 unstable symbols vs ~9 assumed) and drove Graphics, CoreOss, and VLS deliverables without direct authority",
             ],
-            domains: ["java", "android", "make"]
+            domains: ["c++", "yocto", "idl", "android"]
         },
         {
-            name: "Multiple Mock Camera Previews",
-            date: "",
+            name: "Multimedia Recorder Stable API",
+            date: "2026",
             link: "",
             description: [
-                "Designed and developed a mock camera environment to support up to 8 camera views simultaneously for an unreleased product, using C++ multithreading, and implemented support for mocking multiple cameras to facilitate a smoother testing environment",
+                "Designed and shipped an ABI-locked audio/video recording API end to end (IDL, implementation, test app, packaging, client guide) 46 days ahead of plan",
+                "Killed an insecure standalone daemon design so recorder privilege follows the calling app; fixed V4L2 PTS drops that made recordings unplayable",
             ],
-            domains: ["cpp", "oe/yocto", "bitbake"]
+            domains: ["c++", "android", "idl", "multimedia"]
         },
         {
-            name: "Meta Words",
-            date: "",
-            link: "https://github.com/ericygu/DooleyHacks2020",
+            name: "Kepler Camera Operator API",
+            date: "2026",
+            link: "",
             description: [
-                "Type in terms to see their relationship with the increase/decrease in of Facebook Stock on a day by day basis",
+                "Owned the stable control API for smart framing (DPTZ) and computer vision clients, unblocking 5 teams stuck on a deprecated Orpheus path",
+                "Closed a privilege gap so operator controls require an explicit control_stream grant; shipped with full unit and on-device end-to-end coverage",
             ],
-            domains: ["python", "html", "natural-language-processing"]
-        }
+            domains: ["c++", "android", "idl", "computer-vision"]
+        },
+        {
+            name: "Camera Path Reliability Hardening",
+            date: "2026",
+            link: "",
+            description: [
+                "Root-caused and fixed Critical/Blocker failures apps depend on: Show and Tell ANR, comms camera-dead after restart, and VVRP second-open failure",
+                "Hardened the GStreamer camera plugin and client library (ASan-clean exit paths, race fixes, single C++ runtime) with durable fixes over workarounds",
+            ],
+            domains: ["c++", "gstreamer", "android", "debugging"]
+        },
+        {
+            name: "Camera Release Velocity & Shift-Left",
+            date: "2026",
+            link: "",
+            description: [
+                "Restored a Blocker release-pipeline outage within hours and cut commit-to-mainline ambiguity by fixing cadence plus a manual QA gate",
+                "Drove shift-left and pre-merge device testing so camera_server coverage moves earlier, with projected catch of several recurring CI failures",
+            ],
+            domains: ["ci/cd", "android", "yocto", "testing"]
+        },
+        {
+            name: "Camera Footprint Reduction",
+            date: "2026",
+            link: "",
+            description: [
+                "Cut camera turbo-module libraries ~38%, KeplerCameraApp ~22%, and removed test content from TV-profile images",
+                "Relanded Minimal OmniKit only after root-causing launcher/camera crashes, with on-device proof before shipping",
+            ],
+            domains: ["android", "yocto", "optimization"]
+        },
     ];
 
     const tag_colors = {
-        "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "firebase auth": "red-400",
-        "chrome-extension": "yellow-400",
-        "flutter": "blue-400",
-        "dart": "blue-500",
-        "react-native": "purple-500",
-        "html5": "pink-600",
-        "sass": "pink-400",
-        "tensorflow": "yellow-600",
-        "django": "green-600",
-        "python": "green-200",
-        "codeforces-api": "gray-300",
-        "tailwindcss": "blue-300",
-        "next.js": "purple-600"
+        "c++": "blue-400",
+        "android": "green-400",
+        "yocto": "red-400",
+        "idl": "yellow-300",
+        "multimedia": "pink-400",
+        "computer-vision": "purple-400",
+        "gstreamer": "orange-400",
+        "debugging": "gray-300",
+        "ci/cd": "teal-300",
+        "testing": "cyan-300",
+        "optimization": "lime-300",
     }
 
     return (
         <>
-            {}
             {
                 project_list.map((project, index) => {
-                    const projectNameFromLink = project.link.split('/')
-                    const projectName = projectNameFromLink[projectNameFromLink.length - 1]
-                    return (
-                        <a key={index} href={project.link} target="_blank" rel="noreferrer" className="flex w-full flex-col px-4">
-                            <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
-                                <div className="flex flex-wrap justify-between items-center">
-                                    <div className='flex justify-center items-center'>
-                                        <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=ericygu&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
-                                    </div>
-                                    <div className="text-gray-300 font-light text-sm">{project.date}</div>
-                                </div>
-                                <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
-                                    {
-                                        project.description.map((desc, index) => {
-                                            return <li key={index} className="list-disc mt-1 text-gray-100">{desc}</li>;
-                                        })
-                                    }
-                                </ul>
-                                <div className="flex flex-wrap items-start justify-start text-xs py-2">
-                                    {
-                                        (project.domains ?
-                                            project.domains.map((domain, index) => {
-                                                const borderColorClass = `border-${tag_colors[domain]}`
-                                                const textColorClass = `text-${tag_colors[domain]}`
-
-                                                return <span key={index} className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}>{domain}</span>
-                                            })
-
-                                            : null)
-                                    }
-                                </div>
+                    const card = (
+                        <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5">
+                            <div className="flex flex-wrap justify-between items-center">
+                                <div className=" text-base md:text-lg mr-2">{project.name}</div>
+                                <div className="text-gray-300 font-light text-sm">{project.date}</div>
                             </div>
-                        </a>
+                            <ul className=" tracking-normal leading-tight text-sm font-light ml-4 mt-1">
+                                {
+                                    project.description.map((desc, descIndex) => {
+                                        return <li key={descIndex} className="list-disc mt-1 text-gray-100">{desc}</li>;
+                                    })
+                                }
+                            </ul>
+                            <div className="flex flex-wrap items-start justify-start text-xs py-2">
+                                {
+                                    (project.domains ?
+                                        project.domains.map((domain, domainIndex) => {
+                                            const borderColorClass = `border-${tag_colors[domain] || "gray-400"}`
+                                            const textColorClass = `text-${tag_colors[domain] || "gray-400"}`
+
+                                            return <span key={domainIndex} className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}>{domain}</span>
+                                        })
+                                        : null)
+                                }
+                            </div>
+                        </div>
+                    )
+
+                    if (project.link) {
+                        return (
+                            <a key={index} href={project.link} target="_blank" rel="noreferrer" className="flex w-full flex-col px-4 cursor-pointer">
+                                {card}
+                            </a>
+                        )
+                    }
+
+                    return (
+                        <div key={index} className="flex w-full flex-col px-4">
+                            {card}
+                        </div>
                     )
                 })
             }

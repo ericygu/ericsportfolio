@@ -14,9 +14,9 @@ export class Terminal extends Component {
         this.child_directories = {
             root: ["books", "personal-documents", "skills", "languages", "interests"],
             books: ["Ecclesiastes", "Psalms", "Proverbs", "Atomic Habits", "Working Backwards"],
-            skills: ["Embedded development", "OE/Yocto", "ADB", "Scripting", "React.js", "Multithreading"],
+            skills: ["Camera/media systems", "OE/Yocto", "Android", "GStreamer", "CMake", "Stable IDL/APIs"],
             interests: ["Software Engineering", "Philosophy", "Education"],
-            languages: ["Rust", "C++", "Java", "Python", "JavaScript", "ARM-assembly", "SQL", "R"],
+            languages: ["C++", "Java", "Python", "Bash", "Make", "BitBake"],
         };
         this.state = {
             terminal: [],
